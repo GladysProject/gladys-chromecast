@@ -21,5 +21,9 @@
     "automation"
   ],
   "author": "Pierre-Gilles Leymarie",
-  "license": "CC-BY-NC-SA-3.0"
+  "license": "CC-BY-NC-SA-3.0",
+  "dependencies": {
+    "castv2-client": "^1.2.0",
+    "mdns": "^2.3.4"
+  }
 }

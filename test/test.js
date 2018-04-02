@@ -13,12 +13,9 @@ init();
 
 setTimeout(function(){
     var media = {
-      // Here you can plug an URL to any mp4, webm, mp3 or jpg file with the proper contentType.
-      contentId: 'http://commondatastorage.googleapis.com/gtv-videos-bucket/big_buck_bunny_1080p.mp4',
-      //contentType: 'music/mp3',
-      //contentType: 'video/mp4',
-      //streamType: 'BUFFERED', // or LIVE       
+      uri: 'http://commondatastorage.googleapis.com/gtv-videos-bucket/big_buck_bunny_1080p.mp4',
     };
+    
     video.load(media);
     setTimeout(function(){
         video.seek(2*60);

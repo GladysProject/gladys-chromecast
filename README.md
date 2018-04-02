@@ -13,8 +13,6 @@ To install this module :
 
 ### Usage
 
-You can use this module in Gladys directly using the music API.
-
 #### load
 
 You can load any MP4/MP3/JPG file, for example : 

@@ -1,0 +1,25 @@
+{
+  "name": "gladys-chromecast",
+  "version": "0.1.0",
+  "description": "Gladys module to control chromecast",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:GladysProject/gladys-chromecast.git"
+  },
+  "keywords": [
+    "gladys",
+    "module",
+    "chromecast",
+    "home",
+    "automation"
+  ],
+  "author": "Pierre-Gilles Leymarie",
+  "license": "CC-BY-NC-SA-3.0"
+}

@@ -65,3 +65,28 @@ gladys.modules.chromecast.video.seek(10)
     console.log('Success !');
 });
 ```
+
+### Gladys Music API
+
+It even works with Gladys music API.
+
+If you assign your Chromecast device in a specific room in Gladys, you can do:
+
+```javascript
+gladys.music.play({
+    uri: 'http://commondatastorage.googleapis.com/gtv-videos-bucket/big_buck_bunny_1080p.mp4',
+    room: ID_OF_THE_ROOM
+});
+```
+
+```javascript
+gladys.music.pause({ 
+    room: ID_OF_THE_ROOM
+});
+```
+
+```javascript
+gladys.music.stop({ 
+    room: ID_OF_THE_ROOM
+});
+```

@@ -10,6 +10,7 @@ module.exports = function (sails) {
       
     return {
         init, 
-        video
+        video,
+        music: video // so it works with the music API
     };
 };

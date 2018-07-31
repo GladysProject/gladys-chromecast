@@ -8,11 +8,14 @@ This module allows you to control your Chromecast in Gladys.
 To install this module :
 
 
-
 - If you are on your Raspberry Pi/Linux system, execute:
 
 ```
-sudo apt-get install build-essential libavahi-compat-libdnssd-dev git
+sudo apt-get update
+```
+
+```
+sudo apt-get install build-essential libavahi-compat-libdnssd-dev git -y
 ```
 
 - Install the module in Gladys 

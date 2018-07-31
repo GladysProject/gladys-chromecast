@@ -1,6 +1,6 @@
 {
   "name": "gladys-chromecast",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Gladys module to control chromecast",
   "main": "index.js",
   "directories": {
